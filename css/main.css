@@ -1,0 +1,78 @@
+.body-ctn {
+    background-image: url('../img/bg.jpg');
+    background-size:cover;
+
+}
+.dropdown{
+    float:right;
+    overflow: hidden;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+    background-color:whitesmoke;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+.dropdown-content a {
+    float:none;
+    color:black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:20px 20px;
+
+}
+.bodycontainer{
+    float:right;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+.bodytext{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+
+}
+.bodybtn{
+    background-color: pink;    
+    color: white;
+    font-size: 15px;
+    padding:10px;   
+    border:none;
+    float:right;  
+}
+.bodylinetext{
+    font-size: 20px;
+}
+.logocnt{
+    font-size: 30px;
+    border-style: double;
+    border-color: pink;
+    padding:5px;
+    float:left;
+}
+.shopcnt{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+.aboutuscnt {
+    background-image: url('../img/newlogo.jpeg');
+    background-size:cover;
+}
